@@ -156,6 +156,40 @@ function App() {
               </div>
             </div>
           </div>
+
+          <div
+            className="mx-auto p-[100px] flex justify-between items-center bg-no-repeat bg-contain"
+            style={{
+              backgroundImage: `url( '/FAQ_Section.svg' )`,
+            }}
+          >
+            <div className="flex items-center justify-center gap-x-5 ">
+              <a
+                href="#"
+                className="text-lg font-medium leading-normal px-6 py-[18px]  bg-[#FF922E] text-[#141417] rounded-sm"
+              >
+                See tutorials
+              </a>
+              <a
+                href="#"
+                className="text-lg font-medium leading-normal text-[#FF922E] px-6 py-[18px] border-solid border border-[#FF922E]  bg-[#221A13] rounded-sm"
+              >
+                See FAQs
+              </a>
+            </div>
+            <div className="w-[666px] flex flex-col items-end gap-5">
+              <h3 className="text-[35px] leading-normal font-semibold tracking-[-0.35px] text-[#F9F9F9]">
+                Tutorials and FAQs
+              </h3>
+              <img src="/Orange_Line.svg" className=" w-[209px]" />
+              <p className="text-lg leading-7 text-[#f8f8f8cc] font-normal text-right">
+                Step-by-step tutorials will walk you through various processes,
+                from basic setups to advanced configurations. Got questions? Our
+                FAQs address the most common inquiries, providing you with quick
+                and clear answers.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
