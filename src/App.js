@@ -151,8 +151,8 @@ function App() {
                 </p>
               </div>
               <div className="w-[564px] flex flex-col items-end">
-                <img src="/fonts/Coin.svg" className="w-[214px] h-[214px]" />
-                <img src="/fonts/Coins.svg" className="mr-[-100px]" />
+                <img src="/Coin.svg" className="w-[214px] h-[214px]" />
+                <img src="/Coins.svg" className="mr-[-100px]" />
               </div>
             </div>
           </div>
