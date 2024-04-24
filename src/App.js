@@ -97,7 +97,7 @@ function App() {
 
             <div className="flex justify-between items-center">
               <img src="/Asset_22_HowitWorks.svg" />
-              <div className="w-[564px] flex flex-col text-right ">
+              <div className="w-[564px] flex flex-col text-right">
                 <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] leading-normal font-medium tracking-[-0.3px]">
                   Integrate Blockchain Contracts
                 </h3>
@@ -121,6 +121,39 @@ function App() {
                 </p>
               </div>
               <img src="/Asset_3_HowitWorks.svg" className="mr-[-100px]" />
+            </div>
+          </div>
+
+          <div className="mx-auto p-[100px] bg-[linear-gradient(117deg,_#141417_0%,_#141417_0.01%,_#090808_100%)]">
+            <div className="flex justify-between items-center">
+              <div className="w-[643px] flex flex-col text-left gap-5">
+                <h3 className=" text-[35px] leading-normal font-semibold tracking-[-0.35px] text-[#F9F9F9]">
+                  Transparent pricing for{" "}
+                  <span
+                    className=" text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]
+                   underline decoration-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] "
+                  >
+                    your success
+                  </span>
+                </h3>
+                <img src="/Orange_Line.svg" className=" w-[209px]" />
+                <p className="text-lg leading-7 text-[#f8f8f8cc] font-normal">
+                  At PresaleWire, we align our success with yours. We charge a
+                  straightforward fee of{" "}
+                  <span
+                    className=" text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]
+                   underline decoration-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] "
+                  >
+                    3%
+                  </span>{" "}
+                  on the funds raised through your presale. This means the more
+                  successful your presale, the better for both of us.
+                </p>
+              </div>
+              <div className="w-[564px] flex flex-col items-end">
+                <img src="/fonts/Coin.svg" className="w-[214px] h-[214px]" />
+                <img src="/fonts/Coins.svg" className="mr-[-100px]" />
+              </div>
             </div>
           </div>
         </div>
