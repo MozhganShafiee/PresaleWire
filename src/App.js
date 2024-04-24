@@ -158,7 +158,7 @@ function App() {
           </div>
 
           <div
-            className="mx-auto p-[100px] flex justify-between items-center bg-no-repeat bg-contain"
+            className="mx-auto p-[100px] flex justify-between items-center bg-no-repeat bg-cover"
             style={{
               backgroundImage: `url( '/FAQ_Section.svg' )`,
             }}
