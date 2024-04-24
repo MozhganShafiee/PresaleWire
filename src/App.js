@@ -190,6 +190,69 @@ function App() {
               </p>
             </div>
           </div>
+          <div className="bg-[#FF922E] py-[70px] px-[100px] flex flex-col items-center gap-[35px]">
+            <div className="flex flex-col items-center gap-[25px]">
+              <img src="/PresaleWier_Logo_Grey.svg" />
+              <div className="flex gap-x-[50px]">
+                <a
+                  href="#"
+                  className="text-[17px] font-medium tracking-[0.17px] leading-normal  text-[#141417]"
+                >
+                  Home
+                </a>
+                <a
+                  href="#"
+                  className="text-[17px] font-medium tracking-[0.17px] leading-normal  text-[#141417]"
+                >
+                  How it works
+                </a>
+                <a
+                  href="#"
+                  className="text-[17px] font-medium tracking-[0.17px] leading-normal  text-[#141417]"
+                >
+                  Pricing
+                </a>
+                <a
+                  href="#"
+                  className="text-[17px] font-medium tracking-[0.17px] leading-normal  text-[#141417]"
+                >
+                  Documentation
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-col items-center gap-[20px]">
+              <p className="text-sm font-normal leading-[22.4px] text-[#141417e6] w-[741px]">
+                PresaleWire provides a comprehensive blockchain integration
+                solution with customizable modules, contracts for networks like
+                Ethereum and Solana, and robust backend services. It charges a
+                3% fee on presale funds, supporting clients with clear pricing
+                and extensive documentation. This platform simplifies blockchain
+                adoption, enhancing transactions and user engagement digitally.
+              </p>
+              <div className="flex items-center gap-x-[15px]">
+                <img src="/mingcute_social-x-line.svg" />
+                <img src="/ic_baseline-discord.svg" />
+              </div>
+              <p className="text-sm font-normal leading-normal tracking-[0.14px]">
+                2023 PresaleWire - All rights reserved
+              </p>
+            </div>
+
+            <div className="flex gap-x-[35px]">
+              <a
+                href="#"
+                className="underline text-sm font-normal tracking-[0.14px] leading-normal  text-[#141417]"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="underline text-sm font-normal tracking-[0.14px] leading-normal  text-[#141417]"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
