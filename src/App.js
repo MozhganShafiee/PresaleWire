@@ -125,9 +125,9 @@ function App() {
           </div>
         </div>
 
-        <div className="mx-auto p-[100px] bg-[linear-gradient(117deg,_#141417_0%,_#141417_0.01%,_#090808_100%)]">
-          <div className="flex justify-between items-center">
-            <div className="w-[643px] flex flex-col text-left gap-5">
+        <div className="mx-auto px-[100px] bg-[linear-gradient(117deg,_#141417_0%,_#141417_0.01%,_#090808_100%)]">
+          <div className="flex justify-between items-end">
+            <div className="w-[643px] flex flex-col text-left gap-5 py-[100px]">
               <h3 className=" text-[35px] leading-normal font-semibold tracking-[-0.35px] text-[#F9F9F9]">
                 Transparent pricing for{" "}
                 <span
