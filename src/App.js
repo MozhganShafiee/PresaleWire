@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="bg-[linear-gradient(117deg,_#141417_0%,_#141417_0.01%,_#090808_100%)]">
         <div
-          className=" bg-no-repeat bg-cover"
+          className=" bg-no-repeat bg-contain"
           style={{ backgroundImage: `url( '/Background_Hero_Section.svg' )` }}
         >
           <nav
@@ -39,7 +39,7 @@ function App() {
               </a>
             </div>
           </nav>
-          <div className="mx-auto  pt-32 flex flex-col gap-10">
+          <div className="mx-auto  pt-[55px] flex flex-col gap-10">
             <div className="flex flex-col gap-5 items-center ">
               <h1 className="text-6xl font-semibold tracking-[-0.6px] text-[#F9F9F9] leading-normal w-[615px]">
                 Seamless Blockchain Integration
