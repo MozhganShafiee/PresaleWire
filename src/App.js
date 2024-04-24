@@ -41,17 +41,17 @@ function App() {
           </nav>
           <div className="mx-auto  pt-32 flex flex-col gap-10">
             <div className="flex flex-col gap-5 items-center ">
-              <h1 className="text-6xl font-semibold tracking-[-0.6px] text-white leading-normal w-[615px]">
+              <h1 className="text-6xl font-semibold tracking-[-0.6px] text-[#F9F9F9] leading-normal w-[615px]">
                 Seamless Blockchain Integration
               </h1>
               <img src="/Orange_Line.svg" className=" w-[209px]  mx-auto" />
-              <h4 className="text-lg leading-7 text-[#f8f8f8cc] w-[497px]  font-normal">
+              <h4 className="text-lg leading-7 text-[#f8f8f8cc] w-[497px] font-normal">
                 Elevate your site with PresaleWire: seamless blockchain
                 integration, enhanced security, and scalable solutions for
                 superior digital engagement.
               </h4>
             </div>
-            <div className="flex items-center justify-center gap-x-5">
+            <div className="flex items-center justify-center gap-x-5 ">
               <a
                 href="#"
                 className="rounded-sm bg-[#FF922E] text-[#141417] text-lg font-medium leading-normal px-6 py-[18px]"
@@ -69,17 +69,58 @@ function App() {
               <img src="/WirePresale_HeroSection.svg" />
             </div>
           </div>
-          <div className="mx-auto p-[100px] flex flex-col gap-10">
+          <div className="mx-auto p-[100px] flex flex-col gap-10 bg-[linear-gradient(117deg,_#141417_0%,_#141417_0.01%,_#090808_100%)]">
             <div className="flex flex-col gap-5 items-center ">
-              <h1 className="text-6xl font-semibold tracking-[-0.6px] text-white leading-normal w-[615px]">
+              <h1 className="text-[35px] leading-normal font-semibold tracking-[-0.35px] text-[#F9F9F9] w-[615px]">
                 How it works
               </h1>
               <img src="/Orange_Line.svg" className=" w-[209px]  mx-auto" />
-              <h4 className="text-lg leading-7 text-[#f8f8f8cc] w-[526px]  font-normal">
+              <p className=" text-lg leading-7 text-[#f8f8f8cc] w-[526px] font-normal">
                 Seamlessly integrate blockchain into your platform with
                 PresaleWire. Follow these easy steps to boost your site’s
                 capabilities and security for a superior user experience.
-              </h4>
+              </p>
+            </div>
+            <div className="flex justify-between items-center">
+              <div className="w-[549px] flex flex-col text-left">
+                <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]  leading-normal font-medium tracking-[-0.3px]">
+                  Choose your modules
+                </h3>
+                <p className="text-lg leading-7 text-[#f8f8f8cc] font-normal">
+                  Choose from customizable frontend modules that seamlessly
+                  match your site's style. Perfect for transactions, wallet
+                  management, or token offerings, we ensure a perfect fit.
+                </p>
+              </div>
+              <img src="/Asset_11_HowitWorks.svg" />
+            </div>
+
+            <div className="flex justify-between items-center">
+              <img src="/Asset_22_HowitWorks.svg" />
+              <div className="w-[564px] flex flex-col text-right ">
+                <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] leading-normal font-medium tracking-[-0.3px]">
+                  Integrate Blockchain Contracts
+                </h3>
+                <p className="text-lg leading-7 text-[#f8f8f8cc] font-normal">
+                  Choose from customizable frontend modules that seamlessly
+                  match your site's style. Perfect for transactions, wallet
+                  management, or token offerings, we ensure a perfect fit.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center">
+              <div className="w-[549px] flex flex-col text-left">
+                <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]  leading-normal font-medium tracking-[-0.3px]">
+                  Set up Backend Services
+                </h3>
+                <p className="text-lg leading-7 text-[#f8f8f8cc] font-normal">
+                  Connect your platform with our robust backend services for
+                  aggregation and tracking. Monitor performance, manage
+                  transactions, and gather insights—all in one place.
+                </p>
+              </div>
+              <img src="/Asset_3_HowitWorks.svg" className="mr-[-100px]" />
             </div>
           </div>
         </div>
