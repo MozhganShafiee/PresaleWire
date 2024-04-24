@@ -83,7 +83,7 @@ function App() {
             </p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="w-[549px] flex flex-col text-left">
+            <div className="w-[549px] flex flex-col text-left gap-[15px]">
               <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]  leading-normal font-medium tracking-[-0.3px]">
                 Choose your modules
               </h3>
@@ -98,7 +98,7 @@ function App() {
 
           <div className="flex justify-between items-center">
             <img src="/Asset_22_HowitWorks.svg" />
-            <div className="w-[564px] flex flex-col text-right">
+            <div className="w-[564px] flex flex-col text-right gap-[15px]">
               <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] leading-normal font-medium tracking-[-0.3px]">
                 Integrate Blockchain Contracts
               </h3>
@@ -111,7 +111,7 @@ function App() {
           </div>
 
           <div className="flex justify-between items-center">
-            <div className="w-[549px] flex flex-col text-left">
+            <div className="w-[549px] flex flex-col text-left gap-[15px]">
               <h3 className="text-3xl text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]  leading-normal font-medium tracking-[-0.3px]">
                 Set up Backend Services
               </h3>
