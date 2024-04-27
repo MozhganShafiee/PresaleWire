@@ -131,10 +131,12 @@ function App() {
               <h3 className=" text-[35px] leading-normal font-semibold tracking-[-0.35px] text-[#F9F9F9]">
                 Transparent pricing for{" "}
                 <span
-                  className=" text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]
-                   underline decoration-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] "
+                  className="text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]
+                  "
                 >
-                  your success
+                  <a className="bg-bottom	bg-[length:100%_2px] bg-no-repeat bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]">
+                    your success
+                  </a>
                 </span>
               </h3>
               <img src="/Orange_Line.svg" className=" w-[209px]" />
@@ -142,10 +144,12 @@ function App() {
                 At PresaleWire, we align our success with yours. We charge a
                 straightforward fee of{" "}
                 <span
-                  className=" text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]
-                   underline decoration-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)] "
+                  className="text-transparent bg-clip-text bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]
+                  "
                 >
-                  3%
+                  <a className="bg-bottom	bg-[length:100%_1px] bg-no-repeat bg-[linear-gradient(90deg,_#A85000_0%,_#FF7A00_100%)]">
+                    3%
+                  </a>
                 </span>{" "}
                 on the funds raised through your presale. This means the more
                 successful your presale, the better for both of us.
